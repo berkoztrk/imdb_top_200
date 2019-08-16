@@ -1,0 +1,35 @@
+{
+  "name": "@berkozturk/imdb_top_200",
+  "version": "1.0.0",
+  "description": "Gets top 200 list from IMDB",
+  "main": "index.js",
+  "publishConfig": {
+    "public" : true
+  },
+  "dependencies": {
+    "@berkozturk/trim_character": "^1.0.1",
+    "axios": "^0.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "nodemon": "^1.19.1"
+  },
+  "scripts": {
+    "start-dev": "nodemon --exec babel-node test"
+  },
+  "keywords": [
+    "imdb",
+    "top",
+    "200",
+    "movie"
+  ],
+  "author": "Berk Öztürk",
+  "license": "ISC"
+}
