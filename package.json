@@ -4,7 +4,7 @@
   "description": "Gets top 200 list from IMDB",
   "main": "index.js",
   "publishConfig": {
-    "public" : true
+    "access" : "public"
   },
   "dependencies": {
     "@berkozturk/trim_character": "^1.0.1",
